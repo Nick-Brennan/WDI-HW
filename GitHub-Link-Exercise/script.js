@@ -17,9 +17,10 @@ $(document).ready(function(){
         return output;
     }  
     
-    $('body').append('<br/>' +
-                     renderGitHubLinks(data.students));
+    $('body').append('<br/>' + renderGitHubLinks(data.students));
 });
+
+//==FUNCTION EXERCISES=====================
 
 function letterCount(word){
     word = word.toLowerCase();
