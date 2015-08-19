@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(function(){
     
     function buildGitHubLink(student){
         var link = "<a href='https://github.com/" +
